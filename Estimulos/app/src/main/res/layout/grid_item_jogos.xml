@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:background="@drawable/borda_frame">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageJogo"
+        android:src="@drawable/ic_gato" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:id="@+id/ViewEspaco"
+        android:layout_below="@id/imageJogo"/>
+
+    <TextView
+        android:id="@+id/tvTema"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ViewEspaco"
+        android:text="Tema"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textSize="15sp"
+        android:layout_gravity="center_horizontal|top"
+        android:textStyle="bold"
+        android:textColor="@color/LightSlateGray"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/tvNmPaciente"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvTema"
+        android:textSize="15sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="teste"
+        android:layout_gravity="center_horizontal|top"
+        android:textStyle="bold"
+        android:textColor="@color/LightSlateGray"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
+
+

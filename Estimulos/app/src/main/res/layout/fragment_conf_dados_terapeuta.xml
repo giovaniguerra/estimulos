@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroud_list">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dip" >
+
+        <!-- View Title Label -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:text="@string/register_title"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <!-- Name Label -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name" />
+        <!-- Name TextField -->
+
+        <EditText
+            android:id="@+id/registerName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:hint="Entre com seu Nome"
+           />
+
+        <!-- Data Nascimento Label -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/data_de_nascimento" />
+        <!-- Name TextField -->
+
+        <EditText
+            android:id="@+id/registerDataNascimento"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:hint="Entre com sua Data de Nascimento"
+            />
+
+        <!-- Email Label -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email" />
+        <!-- Email TextField -->
+
+        <EditText
+            android:id="@+id/registerEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entre com seu email"
+            android:inputType="textEmailAddress"
+            />
+
+        <!-- Password Label -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:text="@string/pwd" />
+        <!-- Password TextField -->
+
+        <EditText
+            android:id="@+id/registerPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entre com sua senha"
+            android:inputType="textPassword"
+            />
+
+        <!-- Error message -->
+
+        <TextView
+            android:id="@+id/register_error"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dip"
+            android:textColor="#e30000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/dodgeBlue"
+            android:onClick="registerUser"
+            android:text="@string/btEditar"
+            android:textColor="#fff" />
+
+        <!-- Link to Login Screen -->
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+

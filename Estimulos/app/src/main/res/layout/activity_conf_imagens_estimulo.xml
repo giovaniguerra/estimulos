@@ -1,0 +1,167 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.estimulos.app.ui.configuracao.ConfImagensEstimulo"
+    android:orientation="vertical"
+    android:background="@drawable/backgroud_list">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.025"/>
+
+    <TextView
+        android:id="@+id/tvDadosJogo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/imagens_estimulo_titulo"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.025"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.05"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.27"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tiImg"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.15"
+                android:gravity="center"
+                android:text="@string/nome_imagem"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/imgPrincipal"
+                android:layout_weight="0.7"
+                android:layout_gravity="center"
+                android:src="@android:drawable/ic_menu_gallery"/>
+
+            <Button
+                android:id="@+id/btAddImagemPrincipal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.15"
+                android:gravity="center"
+                android:text="@string/bt_add_imagem"
+                android:background="@drawable/border"/>
+
+        </LinearLayout>
+
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.04"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.27"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tiMasc"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.15"
+                android:gravity="center"
+                android:text="@string/nome_mascara"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/imgMascara"
+                android:layout_weight="0.7"
+                android:layout_gravity="center"
+                android:src="@android:drawable/ic_menu_gallery"/>
+
+            <Button
+                android:id="@+id/btAddMascara"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.15"
+                android:gravity="center"
+                android:text="@string/bt_add_imagem"
+                android:background="@drawable/border"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.04"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.27"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tiRes"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.15"
+                android:gravity="center"
+                android:text="@string/nome_resultado"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/imgResult"
+                android:layout_weight="0.7"
+                android:layout_gravity="center"
+                android:src="@android:drawable/ic_menu_gallery"/>
+
+            <Button
+                android:id="@+id/btResult"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.15"
+                android:gravity="center"
+                android:text="@string/bt_salvar"
+                android:background="@drawable/border"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.05"/>
+
+
+        </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"/>
+
+</LinearLayout>

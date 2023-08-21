@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Estimulos</string>
+    <string name="action_configuracao">Configuração</string>
+    <string name="action_sobre">Sobre</string>
+    <string name="action_sair">Sair</string>
+    <string name="title_activity_main">Estimulos</string>
+    <string name="title_activity_seleciona_jogo">Jogar - Passo 1 de 4</string>
+    <string name="bt_anterior">Anterior</string>
+    <string name="bt_proximo">Próximo</string>
+    <string name="bt_executar">Executar</string>
+    <string name="bt_salvar">Salvar</string>
+    <string name="bt_add_imagem">Adicionar</string>
+    <string name="selecione_aluno">Selecione um Aluno:</string>
+    <string name="title_activity_activity_configuracao_inicial">Configuração</string>
+    <string name="title_configuracao_inicial">Selecione uma opção:</string>
+    <string name="categoria_spinner_jogos">Categoria:</string>
+    <string name="nome_fase">Fase:</string>
+    <string name="nome_nivel">Nível:</string>
+
+    <string name="title_activity_seleciona_estimulo">Jogar - Passo 2 de 4</string>
+    <string name="seleciona_estimulo">Selecione um estímulo:</string>
+    <string name="title_activity_seleciona_fase">Jogar - Passo 3 de 4</string>
+
+    <string name="seleciona_fase">Selecione uma Fase:</string>
+    <string name="dados_jogo_titulo">Dados do Jogo</string>
+    <string name="dados_reforcador_titulo">Dados do Reforçador</string>
+    <string name="dados_estimulo_titulo">Dados Estímulo</string>
+    <string name="imagens_estimulo_titulo">Imagens Estímulos</string>
+    <string name="nome_imagem">Imagem</string>
+    <string name="nome_mascara">Máscara</string>
+    <string name="nome_resultado">Resultado</string>
+    <string name="tema_jogo">Tema do Jogo:</string>
+    <string name="nome_reforcador">Nome do Reforçador:</string>
+    <string name="dt_nascimento_paciente">Data de Nascimento:</string>
+
+    <string name="nome_num_tarefas">Nº Tarefas:</string>
+    <string name="nome_num_repeticoes">Nº Repetições:</string>
+    <string name="nome_qtd_estimulos">Nº Estimulos:</string>
+
+    <string name="nome_paciente">Nome Paciente:</string>
+    <string name="tempo_duracao">Tempo de Duração:</string>
+    <string name="nome_categoria">Nome Categoria:</string>
+    <string name="nome_estimulo">Nome:</string>
+    <string name="nome_genero">Gênero:</string>
+    <string name="title_activity_seleciona_nivel">Jogar - Passo 4 de 4</string>
+    <string name="seleciona_nivel">Selecione um Nível:</string>
+    <string name="title_activity_jogar_estimulo">Jogar Estimulo</string>
+    <string name="title_activity_lista_estimulo">Lista Estimulos</string>
+    <string name="title_activity_criar_novo_jogo">Criar Novo Jogo</string>
+    <string name="selecione_tema">Digite tema do jogo:</string>
+    <string name="title_activity_configurar_jogo">Dados do Jogo</string>
+    <string name="title_activity_configurar_niveis">Configuração de Niveis</string>
+    <string name="title_activity_menu_configuracao">Configurações do Jogo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="seleciona_jogo">Selecione um Jogo:</string>
+
+
+    <!-- STRINGS DAS TELAS DE LOGIN-->
+
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="register_title">Cadastro</string>
+    <string name="login_title">Login</string>
+    <string name="name">Nome</string>
+    <string name="email">Email</string>
+    <string name="pwd">Senha</string>
+    <string name="btnRegister">Registrar</string>
+    <string name="btEditar">Editar</string>
+
+    <string name="limite_erros">Limite de erros por tarefa:</string>
+    <string name="limite_som_erros">Silenciar sons de erro após:</string>
+    <string name="configurar_posicoes">Configurar Posições</string>
+    <string name="rand_posicao_estimulo">Posição aleatória para os estímulos</string>
+    <string name="data_de_nascimento">Data de Nascimento</string>
+    <string name="estimulo_principal">Estímulo Principal</string>
+    <string name="estimulo_alvo">Estímulo Alvo</string>
+    <string name="estimulo_insignificante">Estímulo Insignificante</string>
+    <string name="excluir_estimulo">Excluir Estímulo</string>
+
+    <string name="sobre_app">
+        Estímulos é um jogo personalizável voltado à aprendizagem de estímulos para indivíduos autistas.
+        Foi desenvolvido por alunos da Faculdade de Tecnologia de Mogi das Cruzes para o terapeuta da APAE de Mogi das Cruzes.
+    </string>
+    <string name="silenciar_voz_apos">Silenciar voz de instrução após:</string>
+
+</resources>

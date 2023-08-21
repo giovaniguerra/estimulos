@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/conteiner"
+    android:background="@null">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/estimulo_principal"
+        android:text="@string/estimulo_principal"
+        android:textSize="18sp"
+        android:textColor="@color/orange"
+        android:background="@drawable/fundo_dialog"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/estimulo_alvo"
+        android:text="@string/estimulo_alvo"
+        android:textSize="18sp"
+        android:textColor="@color/dodgeBlue"
+        android:background="@drawable/fundo_dialog"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/estimulo_insignificante"
+        android:text="@string/estimulo_insignificante"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:background="@drawable/fundo_dialog" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/btExcluir"
+        android:text="@string/excluir_estimulo"
+        android:textSize="18sp"
+        android:background="@drawable/fundo_dialog" />
+
+
+</LinearLayout>

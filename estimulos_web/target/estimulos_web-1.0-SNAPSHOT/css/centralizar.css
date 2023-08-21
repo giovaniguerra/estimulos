@@ -1,0 +1,16 @@
+/* 
+    Created on : 20/02/2016, 19:11:52
+    Author     : Gustavo
+*/
+.centralizar{
+    /* centraliza na vertical */
+  -ms-align-items: center;
+  -webkit-align-items: center;
+  align-items: center;
+
+  /* centraliza na horizontal */
+  -ms-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+

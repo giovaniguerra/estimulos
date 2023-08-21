@@ -1,0 +1,157 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.estimulos.app.ui.configuracao.ConfReforcadorActivity"
+    android:orientation="horizontal"
+    android:background="@drawable/backgroud_list">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.05"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.12"/>
+
+        <TextView
+            android:id="@+id/tvDadosJogo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.13"
+            android:textAlignment="center"
+            android:gravity="top"
+            android:textStyle="bold"
+            android:text="@string/dados_reforcador_titulo"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/tvTema"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.14"
+            android:gravity="bottom"
+            android:textAlignment="center"
+            android:text="@string/nome_reforcador"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/etNomeReforcador"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15"
+            android:ems="10"
+            android:inputType="textCapSentences">
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/tvPacienteJogo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.14"
+            android:gravity="bottom"
+            android:textAlignment="center"
+            android:text="@string/tempo_duracao"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.05"/>
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar"
+            android:progress="20"
+            android:max="60"
+            android:progressDrawable="@color/LightSlateGray"
+            />
+
+        <TextView
+            android:id="@+id/tvSegundos"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.12"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="20 Segundos"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.05"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/imageMidia"
+            android:layout_weight="0.52"
+            android:layout_gravity="center"
+            android:src="@android:drawable/ic_search_category_default"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.08"/>
+
+        <Button
+            android:id="@+id/btPlay"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.14"
+            android:gravity="center"
+            android:background="@drawable/bt_executar"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.05"/>
+        <Button
+            android:id="@+id/btProximo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.13"
+            android:gravity="center"
+            android:background="@drawable/bt_salvar"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.04"/>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.05"/>
+
+</LinearLayout>
+
+

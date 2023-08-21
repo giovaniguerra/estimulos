@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/novo_jogo_id"
+        android:title="Novo"
+        />
+    <item
+        android:id="@+id/editar_jogo_id"
+        android:title="Editar Dados Jogo"
+        />
+    <item
+        android:id="@+id/vincular_estimulo_id"
+        android:title="Vincular Estímulos"
+        />
+    <item
+        android:id="@+id/vincular_reforcador_id"
+        android:title="Vincular Reforçadores"
+        />
+    <item
+        android:id="@+id/conf_niveis_id"
+        android:title="Configurar Níveis"
+        />
+    <item
+        android:id="@+id/excluir_id"
+        android:title="Excluir"
+        />
+</menu>
